@@ -1,3 +1,11 @@
+Sample result reference: 
+
+<img width="1428" alt="Screenshot 2022-09-26 at 5 26 55 AM" src="https://user-images.githubusercontent.com/9687524/192171481-e76cc33e-c63d-4d5e-8b8e-caae074a8599.png">
+
+<img width="1385" alt="Screenshot 2022-09-26 at 5 26 39 AM" src="https://user-images.githubusercontent.com/9687524/192171467-c7f09644-2c83-413f-b4b7-3091e5b0d152.png">
+
+
+
 # Babbel Frontend Coding Challenge
 
 We're excited that you're interested in joining the Babbel team.
