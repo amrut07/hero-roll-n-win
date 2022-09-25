@@ -1,0 +1,71 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: lightgrey;
+}
+
+.hero-game-container {
+  text-align: center;
+  padding: 48px;
+
+  &__match-id {
+    text-align: end;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  div {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    // justify-content: center;
+    // gap: 72px;
+
+    .player-container {
+      background-color: whitesmoke;
+      display: grid;
+      padding: 20px;
+      border: 2px solid black;
+      border-radius: 5%;
+      width: 180px;
+      gap: 20px;
+
+      img {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 1px solid black;
+        background-color: lightblue;
+        margin: auto;
+      }
+      button {
+        width: 100%;
+        font-size: 16px;
+        border-radius: 10px;
+        padding: 10px;
+        background-color: #02203c;
+        color: white;
+        cursor: pointer;
+
+        &:hover {
+          background-color: #0b4175;
+        }
+        &:disabled {
+          opacity: 0.5;
+          background-color: #02203c;
+          cursor: no-drop;
+        }
+      }
+      &__score {
+        text-align: start;
+      }
+    }
+    .winner {
+      background-color: lightgreen;
+    }
+  }
+}

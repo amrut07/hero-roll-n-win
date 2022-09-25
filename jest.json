@@ -1,0 +1,5 @@
+{
+  "moduleNameMapper": {
+    "\\.(css|scss)$": "babel-jest"
+  }
+}
